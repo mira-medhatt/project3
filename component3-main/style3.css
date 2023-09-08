@@ -1,0 +1,153 @@
+/**************reset***************/
+*{
+    margin :0;
+    padding :0;
+    box-sizing: border-box;   
+
+}
+a{
+
+    text-decoration: none;
+
+}
+img {
+    max-width: 100% ;
+}
+ul {
+    list-style: none;
+}
+
+
+/**************general***************/
+
+:root{
+    --Pale-blue: hsl(225, 100%, 94%);
+--Bright-blue: hsl(245, 75%, 52%);
+--Very-pale-blue: hsl(225, 100%, 98%);
+--Desaturated-blue: hsl(224, 23%, 55%);
+--Dark-blue: hsl(223, 47%, 23%);
+}
+body{
+    text-align: center ;
+    font-size: 16px;
+    font-family: 'RedHatDispla';
+}
+
+
+
+h1{
+    color: var(--Dark-blue);
+    font-family:'RedHatDisplay';
+    font-weight: 700;
+    font-size: 2.2em;
+    margin-bottom: 0.4em;
+    margin-top: 0.6em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    text-align: center;
+}
+/**************main***************/
+main{
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+}
+.box3{
+    background-color:white ;
+    width: 90%;
+    padding: 0em;
+    margin-bottom: 0em;
+    border-radius: 0.625em;
+    -webkit-border-radius:0.625em ;
+    -moz-border-radius : 0.625em;
+    -ms-border-radius : 0.625em;
+    -o-border-radius :0.625em; 
+}
+.box3 img{
+  padding-top: 0%; 
+  border-top-right-radius: 0.625em;
+  border-top-left-radius: 0.625em;
+    
+    
+}
+.parg{
+    color: var(--Desaturated-blue);
+    text-align: center;
+    font-family: 'LexendDeca';
+    font-weight: 500;
+    font-size: 1.2em;
+    margin-bottom: 0.9em;
+    margin-top:0.4em ;
+    padding-top: 0.9em;
+    margin-left: 1.8em;
+    width: 80%;
+}
+.mus{
+    display:inline-flex; 
+    background-color: var(--Very-pale-blue);
+    width : 17em;
+    height: 4em;
+   padding-top: 0.5em;
+    border-radius: 0.625em;
+    -webkit-border-radius:0.625em ;
+    -moz-border-radius : 0.625em;
+    -ms-border-radius : 0.625em;
+    -o-border-radius :0.625em; 
+    
+    padding-left: 2em;
+
+
+}
+span{color: var(--Bright-blue);
+    text-decoration:underline;
+    padding-left: 1em;
+    padding-top: 1em;
+
+}
+.a{
+    display: block;
+    padding-left: 1em;
+
+    font-family: 'Red Hat Display';
+    font-weight: 700;
+    color: var(--Dark-blue);
+}
+.price{
+    color: var(--Desaturated-blue);
+    font-size: 0.7em;
+    display: inline-block;
+
+}
+.pro{
+    display: block;
+    background-color: var(--Bright-blue);
+    width : 16em;
+    height: 2.5em;
+   padding-top: 0.5em;
+    border-radius: 0.625em;
+    -webkit-border-radius:0.625em ;
+    -moz-border-radius : 0.625em;
+    -ms-border-radius : 0.625em;
+    -o-border-radius :0.625em; 
+   margin-left: 2em;
+   margin-top: 1em;
+}
+.can{
+    color: var(--Desaturated-blue);
+    font-size: 0.9em;
+    font-family:'Red Hat Display';
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+h2{
+    color: var(--Very-pale-blue);
+    font-size: 0.9em;
+    font-family:'Red Hat Display';
+    
+}
+
+/**************reset***************/
